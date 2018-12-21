@@ -1,0 +1,10 @@
+class Me:
+def __init__(self,Realname='JunChen'):
+  self.Realname=Realname
+def __get__(self):
+  return self.Realname
+def __set__(self,value):
+ self.Realname=value
+def study(self):
+  print('I study python,java and c++')
+  
